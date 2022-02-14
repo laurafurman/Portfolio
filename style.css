@@ -5,9 +5,9 @@ body {
 }
 
 h1 {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
 }
 
 h2 {
-  font-family: "Quattrocento Sans";
+  font-family: "Quattrocento Sans", sans-serif;
 }
