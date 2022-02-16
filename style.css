@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quattrocento+Sans&display=swap');
 
+/* body */
 body {
   background-color: #3F4238;
   margin: 30px 0px;  
@@ -8,6 +9,8 @@ body {
 header{
     padding: 40px 0px
 }
+
+/* text styling */
 h1 {
   font-family: "DM Serif Display", serif;
   font-size: 80px;
@@ -56,15 +59,15 @@ hr {
     margin: 40px 0px;
 }
 
-footer {
-    padding: 10px;
-    padding-bottom: 0px;
-}
-
 footer p{
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 12px;
+}
+
+footer {
+    padding: 10px;
+    padding-bottom: 0px;
 }
 
 section {
@@ -75,13 +78,12 @@ img {
     border-radius: 20px;
 }
 
+/* class styles */
 .extra-padding {
     padding-bottom: 20px;
 }
-.low-line {
-    line-height: 8px;
-}
 
+/* container backgrounds */
 .dark-background {
     background-color: #3F4238
 }
@@ -94,10 +96,16 @@ img {
     background-color: #FBF3EB
 }
 
+/* alternative text colors */
 .dark-text {
     color: #3F4238;
 }
 
+.light-text {
+    color: #FBF3EB;
+}
+
+/* alignment */
 .right {
     text-align: right;
 }
@@ -106,10 +114,7 @@ img {
     text-align: center;
 }
 
-.light-text {
-    color: #FBF3EB;
-}
-
+/* box for grid items */
 .green-box {
     background-color: #6B705C;
     padding: 15px;
@@ -122,5 +127,6 @@ img {
     grid-gap: 20px;
 }
 
+/* pseudo-classes */
 a:hover {color: #6B705C;}
 a:visited {color: #3F4238}
